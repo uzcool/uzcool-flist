@@ -96,7 +96,7 @@ export default defineUserConfig({
     }，*/
     // ... 可以配置多个挂载路径和仓库，以此类推
 	//代理软件
-    {
+    /*{
       mountPath: "/GitHub/代理软件/GUI.for.Clash",
       analysis: githubReleasesFilesAnalysis({ user: "GUI-for-Cores", repository: "GUI.for.Clash" }),
       downProxy: cloudflarePagesDownProxy(),
@@ -131,7 +131,7 @@ export default defineUserConfig({
       mountPath: "/GitHub/AI/pyvideotrans--AI视频翻译配音",
       analysis: githubReleasesFilesAnalysis({ user: "jianchang512", repository: "pyvideotrans" }),
       downProxy: cloudflarePagesDownProxy(),
-    },
+    },*/
 
 
 
